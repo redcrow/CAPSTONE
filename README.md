@@ -27,8 +27,11 @@ The capstone will build upon the knowledge you have gained in the course in orde
 * Verifier deployed at: https://rinkeby.etherscan.io/address/0x641B08E83D677C2F5F95Ef275DA870e789B001c4
 * SolnSquareVerifier deployed at: https://rinkeby.etherscan.io/address/0x22857783E706e1236aBa5E711F1469515B305027
 
+# Minting a token
+* Was having issues with both MyEtherWallet.com and mint-rinkeby.js script
+
 # OpenSea Marketplace
-* Having issues
+* Having issues minting a token
 
 # SolnSquareVerifier ABI
 ```
