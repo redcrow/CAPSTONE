@@ -438,6 +438,32 @@ https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
       "type": "function"
     },
     {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
       "constant": true,
       "inputs": [
         {
@@ -782,7 +808,7 @@ https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
           "type": "uint256"
         }
       ],
-      "name": "mint",
+      "name": "mintNewNFT",
       "outputs": [
         {
           "internalType": "bool",
