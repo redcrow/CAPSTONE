@@ -1,0 +1,160 @@
+truffle deploy --network rinkeby
+
+crowe@DESKTOP-I4SE9GF:~/Blockchain-Capstone/eth-contracts$ truffle deploy --network rinkeby
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+ReferenceError: MNEMONIC is not defined
+    at Object.provider (/home/crowe/Blockchain-Capstone/eth-contracts/truffle-config.js:52:44)
+    at Object.getProvider (/usr/lib/node_modules/truffle/build/webpack:/packages/provider/index.js:20:1)
+    at Object.create (/usr/lib/node_modules/truffle/build/webpack:/packages/provider/index.js:13:1)
+    at TruffleConfig.get [as provider] (/usr/lib/node_modules/truffle/build/webpack:/packages/config/dist/configDefaults.js:275:1)
+    at Object.detect (/usr/lib/node_modules/truffle/build/webpack:/packages/environment/environment.js:19:1)
+    at Object.module.exports [as run] (/usr/lib/node_modules/truffle/build/webpack:/packages/core/lib/commands/migrate/run.js:19:1)
+    at runCommand (/usr/lib/node_modules/truffle/build/webpack:/packages/core/lib/command-utils.js:201:1)
+Truffle v5.5.29 (core: 5.5.29)
+Node v14.19.0
+crowe@DESKTOP-I4SE9GF:~/Blockchain-Capstone/eth-contracts$ truffle deploy --network rinkeby
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        11388371
+   > block timestamp:     1663301119
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.635462499990405572
+   > gas used:            244640 (0x3bba0)
+   > gas price:           2.500000007 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00061160000171248 ETH
+
+   -------------------------------------
+   > Total cost:     0.00061160000171248 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Verifier'
+   --------------------
+   > block number:        11388373
+   > block timestamp:     1663301121
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.632738952482779639
+   > gas used:            1043651 (0xfecc3)
+   > gas price:           2.500000007 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002609127507305557 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > block number:        11388374
+   > block timestamp:     1663301127
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.62212058495304821
+   > gas used:            4247347 (0x40cf33)
+   > gas price:           2.500000007 gwei
+   > value sent:          0 ETH
+   > total cost:          0.010618367529731429 ETH
+
+   -------------------------------------
+   > Total cost:     0.013227495037036986 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.013839095038749466 ETH
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29999972 (0x1c9c364)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x3906eb2c16becc3ab337ae0461d98a6c89c94e0da5819f6624beea0389dc79ae
+   > Blocks: 1            Seconds: 12
+   > contract address:    0xf2caF4E6Ab455B6c847BCC2C8F06E200f438F98c
+   > block number:        11388377
+   > block timestamp:     1663301144
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.635707139990160932
+   > gas used:            244640 (0x3bba0)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00036696000195712 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00036696000195712 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0x236ab25346565a5907b2d5b381eebdff39ed68a04e994d75adc19bce40827318
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x641B08E83D677C2F5F95Ef275DA870e789B001c4
+   > block number:        11388379
+   > block timestamp:     1663301174
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.634073011480401929
+   > gas used:            1043651 (0xfecc3)
+   > gas price:           1.500000009 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001565476509392859 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x01889a4e3fdc017879344145be467b205285b3317fe857feec85146e36e600fb
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x22857783E706e1236aBa5E711F1469515B305027
+   > block number:        11388380
+   > block timestamp:     1663301189
+   > account:             0x11FfFC1d7a623833b878AD38e0DBf8fBE2a41E1c
+   > balance:             0.627701990946423153
+   > gas used:            4247347 (0x40cf33)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.006371020533978776 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.007936497043371635 ETH
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.008303457045328755 ETH
+
+
+crowe@DESKTOP-I4SE9GF:~/Blockchain-Capstone/eth-contracts
