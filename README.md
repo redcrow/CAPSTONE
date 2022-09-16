@@ -59,7 +59,7 @@ This command will run all three test files. TestERC721Mintable.js, TestSolnSquar
 ```
 truffle migrate --network rinkeby
 ```
-**ER721 contract
+** ER721 contract
 https://rinkeby.etherscan.io/address/0x22857783E706e1236aBa5E711F1469515B305027
 
 # Testing the Project -- Output of tests:
