@@ -60,16 +60,16 @@ This command will run all three test files. TestERC721Mintable.js, TestSolnSquar
 truffle migrate --network rinkeby
 ```
 ** ER721 contract
-https://rinkeby.etherscan.io/address/0x22857783E706e1236aBa5E711F1469515B305027
+https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
 
 # Testing the Project -- Output of tests:
 ![image](https://user-images.githubusercontent.com/369395/190560943-3e4cd7d0-5bb4-4f59-a2da-bbe3c94d488d.png)
 
 # Deployed contract addresses
 1. truffle migrate --network rinkeby
-* Migrations deployed at: https://rinkeby.etherscan.io/address/0xf2caF4E6Ab455B6c847BCC2C8F06E200f438F98c
-* Verifier deployed at: https://rinkeby.etherscan.io/address/0x641B08E83D677C2F5F95Ef275DA870e789B001c4
-* SolnSquareVerifier deployed at: https://rinkeby.etherscan.io/address/0x22857783E706e1236aBa5E711F1469515B305027
+* Migrations deployed at: https://rinkeby.etherscan.io/address/0x80E52A2911B8abB3A1D896adDeB314bDDF9B3bc0
+* Verifier deployed at: https://rinkeby.etherscan.io/address/0xbcc775a75EDB41edB245f92fa38ae9468cfDce4a
+* SolnSquareVerifier deployed at: https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
 
 # Minting a token
 * Was having issues with both MyEtherWallet.com and mint-rinkeby.js script
