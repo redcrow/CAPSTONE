@@ -13,12 +13,56 @@ The capstone will build upon the knowledge you have gained in the course in orde
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
-# Testing the Project
+# Project Resources Versions
 
-1. Navigate to tests folder
-2. Run all the tests
+* Truffle v5.5.29 (core: 5.5.29)
+* Ganache v7.4.0
+* Solidity v0.5.16 (solc-js)
+* Node v14.19.0
+* Web3.js v1.7.4
 
-# Output of tests:
+# Contracts
+* SolnSquareVerifier.sol inherits all other contracts except verifier.sol. Completed contract that inherits the ERC721 token backed through zkSnarks (privacy and scalability)
+* verifier.sol implements zkSnarks (Succinct Zero-knowledge proofs)
+
+# Quick Start
+
+1. Install modules
+```
+cd Blockchain-Capstone
+npm install
+```
+2. Compile contracts
+```
+cd eth-contracts
+truffle compile
+```
+3. Start ganache
+```
+ganache-cli -m "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat" -a 20
+```
+4. Migrate to local network
+```
+truffle migrate --network development --reset
+```
+5. Test contracts
+``` 
+truffle test
+```
+This command will run all three test files. TestERC721Mintable.js, TestSolnSquareVerifier.js and TestSquareVerifier.js
+6. Deploy to Rinkeby
+* Create project with Infura
+* Setup truffle-config.js
+** infura key and url
+** mnemonic form metamask within HDWalletProvider
+** rinkeby endpoint within HDWalletProvider
+```
+truffle migrate --network rinkeby
+```
+**ER721 contract
+https://rinkeby.etherscan.io/address/0x22857783E706e1236aBa5E711F1469515B305027
+
+# Testing the Project -- Output of tests:
 ![image](https://user-images.githubusercontent.com/369395/190560943-3e4cd7d0-5bb4-4f59-a2da-bbe3c94d488d.png)
 
 # Deployed contract addresses
