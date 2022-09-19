@@ -825,4 +825,10 @@ https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
   ]
 ```
 
+# Mint 5 property NFTs and List for sell on https://testnets.opensea.io/collection/crowe-realestate-rst
+![Capstone OpenSea_Listings](https://user-images.githubusercontent.com/369395/191075876-4c005d21-29a9-477c-89bb-7a339b9df200.png)
+
+# Buy 5 property NFTs https://testnets.opensea.io/collection/crowe-realestate-rst
+![Capstone OpenSea_Listings_Sold](https://user-images.githubusercontent.com/369395/191075982-96aca4a0-1a6e-4bb9-875c-336ee5108354.png)
+
 
