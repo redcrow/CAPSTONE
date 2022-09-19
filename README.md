@@ -53,13 +53,13 @@ This command will run all three test files. TestERC721Mintable.js, TestSolnSquar
 6. Deploy to Rinkeby
 * Create project with Infura
 * Setup truffle-config.js
-** infura key and url
-** mnemonic form metamask within HDWalletProvider
-** rinkeby endpoint within HDWalletProvider
+* infura key and url
+* mnemonic form metamask within HDWalletProvider
+* rinkeby endpoint within HDWalletProvider
 ```
 truffle migrate --network rinkeby
 ```
-** ER721 contract
+* ER721 contract
 https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
 
 # Testing the Project -- Output of tests:
@@ -73,10 +73,11 @@ https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
 
 # Minting a token
 * Was having issues with both MyEtherWallet.com and mint-rinkeby.js script
-* In order to use MyEtherWallet.com
+* In order to use MyEtherWallet.com I had to modify the SolnSquareVerifier.sol such the that mint function had a different function name so that contract interaction would call the ERC721 Mintable function.
+* Was able to mint NFTs.
 
-# OpenSea Marketplace
-* Having issues minting a token
+# OpenSea Marketplace Storefront link
+* https://testnets.opensea.io/collection/crowe-realestate-rst
 
 # SolnSquareVerifier ABI
 ```
