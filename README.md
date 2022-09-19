@@ -73,6 +73,7 @@ https://rinkeby.etherscan.io/address/0x1A323701628C20a663ed8E13f9a6c92DA0cff149
 
 # Minting a token
 * Was having issues with both MyEtherWallet.com and mint-rinkeby.js script
+* In order to use MyEtherWallet.com
 
 # OpenSea Marketplace
 * Having issues minting a token
